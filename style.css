@@ -1,0 +1,146 @@
+body {
+    background: rgb(32, 30, 30);
+    color: white;
+    font-family: 'Fira Code', monospace;
+}
+
+
+/*Type w */
+
+.typewriter {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.typewriter #line-1 {
+    animation-delay: 10s;
+}
+
+.typewriter h1 {
+    border-right: 1px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 780px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 4s steps(29) 1s 1 normal both;
+    font-size: 4em;
+}
+
+.typewriter #line-1 {
+    border-right: 1px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 420px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 6s steps(29) 1s 1 normal both;
+}
+
+@keyframes typewriter {
+    0% {
+        width: 0;
+        border-right: none;
+    }
+    0.1% {
+        border-right: 1px solid rgb(220, 220, 220);
+    }
+    99.9% {
+        border-right: 1px solid rgb(220, 220, 220);
+    }
+    100% {
+        border: none;
+    }
+}
+
+.typewriter #line-2 {
+    animation-delay: 3.5s;
+}
+
+.typewriter #line-2 {
+    border-right: 1px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 480px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 7s steps(29) 1s 1 normal both;
+}
+
+
+/*Buttons */
+
+.multi-button a {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 0.2em 1.45em;
+    margin: 0.5em;
+    border: 0.15em solid #cccccc00;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    background-color: #7e7e7eaf;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+}
+
+.multi-button {
+    display: flex;
+    flex-direction: row;
+    padding: 10px
+}
+
+.bouncy {
+    animation: bouncy 5s infinite linear;
+    position: relative;
+}
+
+@keyframes bouncy {
+    0% {
+        top: 0em
+    }
+    40% {
+        top: 0em
+    }
+    43% {
+        top: -0.9em
+    }
+    46% {
+        top: 0em
+    }
+    48% {
+        top: -0.4em
+    }
+    50% {
+        top: 0em
+    }
+    100% {
+        top: 0em;
+    }
+}
+
+
+/* Box */
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    font-size: 35px;
+}
+
+.line {
+    width: 53px;
+    height: 0;
+    border: 1px solid #ffffff;
+    margin: 20px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* About */
